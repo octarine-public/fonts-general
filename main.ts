@@ -1,4 +1,4 @@
-import { RendererSDK, tryFindFile } from "./wrapper/Imports"
+import { RendererSDK, tryFindFile } from "github.com/octarine-public/wrapper/wrapper/Imports"
 
 function LoadFontWrapper(path: string, isFallback = false) {
 	const realPath = tryFindFile(path)
