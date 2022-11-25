@@ -2,10 +2,8 @@ import { RendererSDK, tryFindFile } from "github.com/octarine-public/wrapper/ind
 
 function LoadFontWrapper(path: string, isFallback = false) {
 	const realPath = tryFindFile(path)
-	if (realPath !== undefined)
-		LoadFont(realPath, isFallback)
-	else
-		console.error(`Failed to find font file ${path}`)
+	if (realPath !== undefined) LoadFont(realPath, isFallback)
+	else console.error(`Failed to find font file ${path}`)
 }
 
 RendererSDK.CreateFont("Open Sans", "fonts/OpenSans/OpenSans-Bold.ttf", 700, false)
