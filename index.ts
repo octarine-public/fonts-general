@@ -39,4 +39,15 @@ LoadFontWrapper("fonts/Roboto/Roboto-BoldItalic.ttf")
 LoadFontWrapper("fonts/Roboto/Roboto-Regular.ttf", true)
 LoadFontWrapper("fonts/Roboto/Roboto-Italic.ttf")
 
+RendererSDK.CreateFont("Calibri", "fonts/Calibri/Calibri-Bold.ttf", 700, false)
+RendererSDK.CreateFont("Calibri", "fonts/Calibri/Calibri-BoldItalic.ttf", 700, true)
+RendererSDK.CreateFont("Calibri", "fonts/Calibri/Calibri-Regular.ttf", 400, false)
+RendererSDK.CreateFont("Calibri", "fonts/Calibri/Calibri-Italic.ttf", 400, true)
+
+LoadFontWrapper("fonts/Calibri/Calibri-Bold.ttf")
+LoadFontWrapper("fonts/Calibri/Calibri-BoldItalic.ttf")
+LoadFontWrapper("fonts/Calibri/Calibri-Regular.ttf")
+LoadFontWrapper("fonts/Calibri/Calibri-Italic.ttf")
+
+
 LoadFontWrapper("fonts/NotoEmoji/NotoEmoji-Regular.ttf", true)
