@@ -49,5 +49,15 @@ LoadFontWrapper("fonts/Calibri/Calibri-BoldItalic.ttf")
 LoadFontWrapper("fonts/Calibri/Calibri-Regular.ttf")
 LoadFontWrapper("fonts/Calibri/Calibri-Italic.ttf")
 
+RendererSDK.CreateFont("Consolas", "fonts/Consolas/Consolas-Bold.ttf", 700, false)
+RendererSDK.CreateFont("Consolas", "fonts/Consolas/Consolas-BoldItalic.ttf", 700, true)
+RendererSDK.CreateFont("Consolas", "fonts/Consolas/Consolas-Regular.ttf", 400, false)
+RendererSDK.CreateFont("Consolas", "fonts/Consolas/Consolas-Italic.ttf", 400, true)
+
+LoadFontWrapper("fonts/Consolas/Consolas-Bold.ttf")
+LoadFontWrapper("fonts/Consolas/Consolas-BoldItalic.ttf")
+LoadFontWrapper("fonts/Consolas/Consolas-Regular.ttf")
+LoadFontWrapper("fonts/Consolas/Consolas-Italic.ttf")
+
 
 LoadFontWrapper("fonts/NotoEmoji/NotoEmoji-Regular.ttf", true)
