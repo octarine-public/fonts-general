@@ -31,6 +31,7 @@ LoadFontWrapper("fonts/PTSans/PTSans-Italic.ttf")
 
 RendererSDK.CreateFont("Roboto", "fonts/Roboto/Roboto-Bold.ttf", 700, false)
 RendererSDK.CreateFont("Roboto", "fonts/Roboto/Roboto-BoldItalic.ttf", 700, true)
+RendererSDK.CreateFont("Roboto", "fonts/Roboto/Roboto-Medium.ttf", 500, false)
 RendererSDK.CreateFont("Roboto", "fonts/Roboto/Roboto-Regular.ttf", 400, false)
 RendererSDK.CreateFont("Roboto", "fonts/Roboto/Roboto-Italic.ttf", 400, true)
 
